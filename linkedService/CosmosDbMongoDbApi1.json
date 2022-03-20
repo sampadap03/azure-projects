@@ -1,0 +1,14 @@
+{
+	"name": "CosmosDbMongoDbApi1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "CosmosDbMongoDbApi",
+		"typeProperties": {
+			"connectionString": "mongodb://codlmcosmos:@codlmcosmos.mongo.cosmos.azure.com:10255/?appname=@codlmcosmos@;tls=true;replicaSet=globaldb;maxIdleTime=2m;retryWrites=false",
+			"database": "codlem",
+			"isServerVersionAbove32": true,
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVBMDNGQkMxLTFCOTktNEREOC1CMkExLTRGNDE1QkYyMDI1MV83YWY3NjgxNy1mZWVlLTRkMDktODg4NS05MzgzMmRhYTg3MWIiDQp9"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "codlemfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c5e105ef-0b5b-40bf-875d-dc87e459cef3",
+		"tenantId": "3ff0d950-c929-40cd-858d-6d3cbab9e019"
+	}
+}
